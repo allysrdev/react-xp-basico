@@ -1,16 +1,21 @@
-import React from "react";
+import React from 'react';
 
 export default function Button({
   children: description,
   onButtonClick = null,
+  colorClassName = 'bg-gray-200',
+  type = 'button',
 }) {
   function handleButtonClick() {
-    onButtonClick();
+    if (onButtonClick) {
+      onButtonClick();
+    }
   }
   return (
     <button
       onClick={handleButtonClick}
-      className="bg-gray-200 p-2 rounded-md m-1 w-44"
+      className={`${colorClassName} p-2 rounded-md m-1 w-44`}
+      type={type}
     >
       {description}
     </button>

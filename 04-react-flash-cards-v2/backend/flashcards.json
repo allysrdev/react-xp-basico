@@ -1,0 +1,145 @@
+{
+  "flashcards": [
+    {
+      "title": "O que é estado (state) em React",
+      "description": "É um objeto usado para armazenar dados que determinam o comportamento e a renderização do componente. Mudanças no estado causam re-renderização.",
+      "id": "b0b39316-4079-4e88-a387-186384395b29",
+      "showTitle": true
+    },
+    {
+      "title": "O que é JSX",
+      "description": "É uma sintaxe semelhante a HTML utilizada dentro do JavaScript, que permite descrever como a UI deve se parecer. JSX é transformado em chamadas de `React.createElement`.",
+      "id": "d33f1207-f7fd-44e7-ae83-3a57f11c1604",
+      "showTitle": true
+    },
+    {
+      "title": "O que é lifting state up",
+      "description": "É a prática de mover o estado para o componente pai mais próximo quando dois ou mais componentes filhos precisam compartilhar dados.",
+      "id": "a797f624-20ea-4464-8b9d-ee8df3bd5982",
+      "showTitle": true
+    },
+    {
+      "title": "O que é memoization em React",
+      "description": "É uma técnica para evitar renderizações desnecessárias. `React.memo` e `useMemo` são usados para memorizar valores ou componentes.",
+      "id": "e1bc20ec-d6de-4565-adec-53ebbc96f17d",
+      "showTitle": true
+    },
+    {
+      "title": "O que é o hook useContext",
+      "description": "É um hook que permite acessar valores de um contexto React sem precisar usar o `Consumer` manualmente em cada nível da árvore de componentes.",
+      "id": "9bfba598-f150-40b3-89fa-540d01692237",
+      "showTitle": true
+    },
+    {
+      "title": "O que é o hook useEffect",
+      "description": "É um hook que permite lidar com efeitos colaterais, como requisições, assinaturas ou alterações no DOM. Ele roda após a renderização do componente.",
+      "id": "5c1aade0-2a33-4c84-9622-5eef72879590",
+      "showTitle": true
+    },
+    {
+      "title": "O que é o hook useState",
+      "description": "É um hook que permite adicionar estado a componentes funcionais. Ele retorna um array com o valor atual e uma função para atualizá-lo.",
+      "id": "51daf3ec-889e-45b9-826c-65be3dc372f2",
+      "showTitle": true
+    },
+    {
+      "title": "O que é o Virtual DOM",
+      "description": "É uma representação em memória da UI que o React usa para otimizar atualizações. O React compara o virtual DOM com a versão anterior e atualiza apenas o que mudou.",
+      "id": "0d415b7b-7081-4940-ad4a-c25520bf63bc",
+      "showTitle": true
+    },
+    {
+      "title": "O que é prop drilling",
+      "description": "É o processo de passar props por vários níveis da árvore de componentes até chegar no componente que precisa da informação.",
+      "id": "a17be8b1-08ea-4098-af51-e1be711572cf",
+      "showTitle": true
+    },
+    {
+      "title": "O que é React",
+      "description": "É uma biblioteca JavaScript criada pelo Facebook para construir interfaces de usuário de forma declarativa e baseada em componentes.",
+      "id": "a732bfe8-7550-416c-8286-890fe793ae3f",
+      "showTitle": true
+    },
+    {
+      "title": "O que é React Fragment",
+      "description": "É um componente especial (`<></>` ou `<React.Fragment>`) que permite agrupar múltiplos elementos sem adicionar nós extras ao DOM.",
+      "id": "6623b148-499d-4eed-a8fe-15dd70f0b218",
+      "showTitle": true
+    },
+    {
+      "title": "O que é renderização condicional",
+      "description": "É a técnica de renderizar diferentes elementos ou componentes com base em uma condição. Pode ser feita com `if`, operador ternário ou `&&`.",
+      "id": "593ca484-3af8-4699-8be3-24c366fbca3c",
+      "showTitle": true
+    },
+    {
+      "title": "O que é um componente React",
+      "description": "É uma função ou classe que retorna elementos React (geralmente JSX), podendo receber propriedades (props) e ter estado próprio (state).",
+      "id": "6a6f2d58-e283-4adf-af1c-3f97f8779ed5",
+      "showTitle": true
+    },
+    {
+      "title": "O que é um custom hook",
+      "description": "É uma função personalizada que começa com 'use' e reutiliza lógica de hooks nativos como `useState` e `useEffect` entre componentes.",
+      "id": "6a53d578-58d4-4608-a57f-7ee3113a93b2",
+      "showTitle": true
+    },
+    {
+      "title": "O que são hooks",
+      "description": "Hooks são funções especiais que permitem usar estado e outros recursos do React em componentes funcionais, como `useState`, `useEffect`, `useContext`, etc.",
+      "id": "4940f59b-b4dd-4ad7-9c76-add68185c21c",
+      "showTitle": true
+    },
+    {
+      "title": "O que são props em React",
+      "description": "São propriedades passadas para os componentes que funcionam como argumentos. Elas são somente leitura e ajudam a tornar os componentes reutilizáveis.",
+      "id": "b5076245-8757-469f-a019-d42bcd7ba543",
+      "showTitle": true
+    },
+    {
+      "title": "Qual a diferença entre componente funcional e de classe",
+      "description": "Componentes funcionais são funções simples que retornam JSX. Componentes de classe usam a sintaxe de classes do JavaScript e têm métodos como `render()`. Hoje, com hooks, os funcionais são preferidos.",
+      "id": "e58274d2-e44b-48cb-93de-498f2605ba3c",
+      "showTitle": true
+    },
+    {
+      "title": "Qual a diferença entre useEffect e useLayoutEffect",
+      "description": "`useEffect` roda após o layout e pintura da tela. `useLayoutEffect` roda sincronicamente após todas as mutações do DOM, antes da pintura.",
+      "id": "7eb9609e-2b40-4b5b-bbcc-5d204be4ad67",
+      "showTitle": true
+    },
+    {
+      "title": "Qual a função da key em listas",
+      "description": "A `key` ajuda o React a identificar quais itens mudaram, foram adicionados ou removidos em listas, otimizando a renderização.",
+      "id": "55fedfe4-9c45-4724-a42d-850dc2ea80fe",
+      "showTitle": true
+    },
+    {
+      "id": "39252d43-1c35-4cbb-8b21-f86a860de950",
+      "title": "a2",
+      "description": "a2"
+    },
+    {
+      "id": "2572c520-fb01-4945-a6c3-7e0b78a6233a",
+      "title": "a2",
+      "description": "a2"
+    },
+    {
+      "id": "82c2e6fc-dc0d-4adc-98a2-bbffd15fbf91",
+      "title": "a2",
+      "description": "a2"
+    },
+    {
+      "id": "8395394f-ea0f-4ea9-82c7-23261006f83a",
+      "title": "a1",
+      "description": "z2"
+    },
+    {
+      "id": "5a2c1297-518c-4843-a0fb-18516608bdee",
+      "title": {
+        "title": "a1Z",
+        "description": "s1"
+      }
+    }
+  ]
+}

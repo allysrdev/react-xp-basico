@@ -1,10 +1,10 @@
-import React from "react";
-import { getNewId } from "../services/idService";
+import React from 'react';
+import { getNewId } from '../services/idService';
 
 export default function RadioButton({
   id = getNewId(),
-  name = "radioButtonName",
-  children: buttonDescription = "Descrição do Botão",
+  name = 'radioButtonName',
+  children: buttonDescription = 'Descrição do Botão',
   buttonChecked = false,
   onButtonClick = null,
 }) {
